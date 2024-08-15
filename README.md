@@ -15,15 +15,27 @@ Before you begin, ensure you have the following:
 - [Twilio Account](https://www.twilio.com/try-twilio)
 ### Installation
 1. Clone the Repository:
-   ``bash
-   git clone https://github.com/your-username/DSApractice.git
-   cd DSApractice
-2. **Set Up Your Environment**:
+
+'''   git clone https://github.com/your-username/DSApractice.git
+   cd DSApractice '''
+
+## Configuration File
+
+Create a file named `application.properties` with the following content:
+
+```properties
+# MongoDB Configuration
+spring.data.mongodb.uri=mongodb://localhost:27017/your-database '''
+
+''' # Twilio Configuration
+twilio.account.sid=your_account_sid
+twilio.auth.token=your_auth_token
+twilio.whatsapp.from=whatsapp:+1415523888
 # application.properties
 spring.data.mongodb.uri=mongodb://localhost:27017/your-database
 twilio.account.sid=your_account_sid
 twilio.auth.token=your_auth_token
-twilio.whatsapp.from=whatsapp:+14155238886
+twilio.whatsapp.from=whatsapp:+14155238886 '''
 ## 📦 Usage
 ### Schedule Messages
 The application is configured to send a random DSA question daily at 9 AM. You can adjust the schedule in the MessageScheduler class.
