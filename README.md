@@ -1,25 +1,23 @@
 # DSApractice
+
 ## 🚀 Overview
 Welcome to DSApractice - your ultimate companion for mastering Data Structures and Algorithms (DSA)! This Spring Boot and MongoDB-based web application is designed to help you stay on top of your DSA practice by sending timely reminders and revision questions directly to your phone via WhatsApp, powered by Twilio.
 
+## 🌟 Why DSApractice?
 
-<h2>🌟 Why DSApractice?</h2>
-Are you struggling to maintain a consistent DSA practice routine? Do you find yourself forgetting to revise key concepts? DSApractice is here to revolutionize your learning journey!
+Are you struggling to maintain a consistent DSA practice routine? Do you find yourself forgetting to revise key concepts? **DSApractice** is here to revolutionize your learning journey!
 
-📱 Daily Reminders: Never miss a day of practice
-<break>
-🧠 Random Challenges: Keep your skills sharp with diverse questions
-<break>
-📊 Progress Tracking: Watch your knowledge grow over time
-<break>
-🌐 WhatsApp Integration: Learn on the go, right on your phone
-<break>
+- 📱 **Daily Reminders**: Never miss a day of practice
+- 🧠 **Random Challenges**: Keep your skills sharp with diverse questions
+- 📊 **Progress Tracking**: Watch your knowledge grow over time
+- 🌐 **WhatsApp Integration**: Learn on the go, right on your phone
+
 ## 📦 Features
 - Automated Reminders: Receive daily reminders to keep your practice consistent.
 - Randomized Questions: Get a random DSA question every day to challenge yourself.
 - Twilio Integration: Seamlessly integrated with Twilio to send messages over WhatsApp.
-- MongoDB Backend: Manage and store your practice questions and other data efficiently.
-- 
+- MongoDB Backend: Manage and store your practice questions and other data efficiently
+
 ## 🔧 Getting Started
 ### Prerequisites
 Before you begin, ensure you have the following:
