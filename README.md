@@ -33,7 +33,8 @@ properties
 # MongoDB Configuration
 
 ```
-spring.data.mongodb.uri=mongodb://localhost:27017/your-database 
+spring.data.mongodb.uri=mongodb://localhost:27017/your-database
+```
 
  # Twilio Configuration
 ```
@@ -46,7 +47,8 @@ twilio.account.sid=your_account_sid
 twilio.auth.token=your_auth_token
 twilio.whatsapp.from=whatsapp:+14155238886
 ```
-## 📦 Usage
+
+**📦Usage**
 ### Schedule Messages
 The application is configured to send a random DSA question daily at 9 AM. You can adjust the schedule in the MessageScheduler class.
 ### Check Logs
