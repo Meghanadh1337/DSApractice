@@ -30,44 +30,55 @@ Before you begin, ensure you have the following:
    git clone https://github.com/your-username/DSApractice.git
    cd DSApractice
 
+2. **Set Up Your Environment**:
+# application.properties
+spring.data.mongodb.uri=mongodb://localhost:27017/your-database
+twilio.account.sid=your_account_sid
+twilio.auth.token=your_auth_token
+twilio.whatsapp.from=whatsapp:+14155238886
 
-bash
-Copy code
-./mvnw spring-boot:run
-or
 
-bash
-Copy code
-./gradlew bootRun
-Usage
-Schedule Messages:
 
-The application is configured to send a random DSA question daily at 9 AM. You can adjust the schedule in the MessageScheduler class.
 
-Check Logs:
+## 📦 Usage
+
+### Schedule Messages
+
+The application is configured to send a random DSA question daily at 9 AM. You can adjust the schedule in the `MessageScheduler` class.
+
+### Check Logs
 
 Monitor your Twilio dashboard to see message logs and statuses.
 
-API Endpoints:
+### API Endpoints
 
-Search by Name: GET /api/questions/searchByName?name={name}
-Search by Tags: GET /api/questions/searchByTags?tags={tag1}&tags={tag2}
-📄 How It Works
-Twilio Integration: The application uses Twilio's API to send WhatsApp messages. It sends a random DSA question daily to a specified phone number.
-Spring Boot: Manages scheduling, message handling, and API endpoints.
-MongoDB: Stores questions and user data, ensuring efficient data retrieval and management.
-🔧 Customization
-Change the Schedule: Modify the cron expression in MessageScheduler to adjust when messages are sent.
-Update Questions: Add or modify questions in the questions array within the MessageScheduler class.
-🧪 Testing
+- **Search by Name**: `GET /api/questions/searchByName?name={name}`
+- **Search by Tags**: `GET /api/questions/searchByTags?tags={tag1}&tags={tag2}`
+
+## 📄 How It Works
+
+1. **Twilio Integration**: The application uses Twilio's API to send WhatsApp messages. It sends a random DSA question daily to a specified phone number.
+2. **Spring Boot**: Manages scheduling, message handling, and API endpoints.
+3. **MongoDB**: Stores questions and user data, ensuring efficient data retrieval and management.
+
+## 🔧 Customization
+
+- **Change the Schedule**: Modify the cron expression in `MessageScheduler` to adjust when messages are sent.
+- **Update Questions**: Add or modify questions in the `questions` array within the `MessageScheduler` class.
+
+## 🧪 Testing
+
 Ensure that the application is running and your Twilio account is properly set up. Use the provided API endpoints to test searching functionality. Verify that reminders and questions are sent as expected.
 
-📚 Resources
-Spring Boot Documentation
-Twilio API Documentation
-MongoDB Documentation
+## 📚 Resources
+
+- [Spring Boot Documentation](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
+- [Twilio API Documentation](https://www.twilio.com/docs/whatsapp)
+- [MongoDB Documentation](https://docs.mongodb.com/)
+
 📧 Contact
 For any issues or suggestions, feel free to reach out:
 
-Email:meghanadh777@example.com
+Email: meghanadh777@gmail.com
 GitHub Issues: DSApractice Issues
+
