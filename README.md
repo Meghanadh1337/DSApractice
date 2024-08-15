@@ -25,17 +25,17 @@ Create a file named `application.properties` with the following content:
 
 ```properties
 # MongoDB Configuration
-spring.data.mongodb.uri=mongodb://localhost:27017/your-database '''
+spring.data.mongodb.uri=mongodb://localhost:27017/your-database ```
 
-''' # Twilio Configuration
-twilio.account.sid=your_account_sid
+ # Twilio Configuration
+```twilio.account.sid=your_account_sid
 twilio.auth.token=your_auth_token
 twilio.whatsapp.from=whatsapp:+1415523888
 # application.properties
 spring.data.mongodb.uri=mongodb://localhost:27017/your-database
 twilio.account.sid=your_account_sid
 twilio.auth.token=your_auth_token
-twilio.whatsapp.from=whatsapp:+14155238886 '''
+twilio.whatsapp.from=whatsapp:+14155238886 ```
 ## 📦 Usage
 ### Schedule Messages
 The application is configured to send a random DSA question daily at 9 AM. You can adjust the schedule in the MessageScheduler class.
