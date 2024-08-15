@@ -1,42 +1,35 @@
 # DSApractice
-SpringBoot,Mongodb based web application integrated with Twilo API to send remind,revise about DSA practice
 
-DSApractice
-🚀 Overview
-Welcome to DSApractice - your ultimate companion for mastering Data Structures and Algorithms (DSA)! This Spring Boot and MongoDB-based web application is designed to help you stay on top of your DSA practice by sending timely reminders and revision questions directly to your phone via WhatsApp, powered by Twilio.
+## 🚀 Overview
 
-📦 Features
-Automated Reminders: Receive daily reminders to keep your practice consistent.
-Randomized Questions: Get a random DSA question every day to challenge yourself.
-Twilio Integration: Seamlessly integrated with Twilio to send messages over WhatsApp.
-MongoDB Backend: Manage and store your practice questions and other data efficiently.
-🔧 Getting Started
-Prerequisites
+Welcome to **DSApractice** - your ultimate companion for mastering Data Structures and Algorithms (DSA)! This Spring Boot and MongoDB-based web application is designed to help you stay on top of your DSA practice by sending timely reminders and revision questions directly to your phone via WhatsApp, powered by Twilio.
+
+## 📦 Features
+
+- **Automated Reminders**: Receive daily reminders to keep your practice consistent.
+- **Randomized Questions**: Get a random DSA question every day to challenge yourself.
+- **Twilio Integration**: Seamlessly integrated with Twilio to send messages over WhatsApp.
+- **MongoDB Backend**: Manage and store your practice questions and other data efficiently.
+
+## 🔧 Getting Started
+
+### Prerequisites
+
 Before you begin, ensure you have the following:
 
-Java 17+
-Spring Boot
-MongoDB
-Twilio Account
-Installation
-Clone the Repository:
+- [Java 17+](https://adoptopenjdk.net/)
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [MongoDB](https://www.mongodb.com/try/download/community)
+- [Twilio Account](https://www.twilio.com/try-twilio)
 
-bash
-Copy code
-git clone https://github.com/your-username/DSApractice.git
-cd DSApractice
-Set Up Your Environment:
+### Installation
 
-Create a .env file or set environment variables with your Twilio credentials and MongoDB URI.
+1. **Clone the Repository**:
 
-properties
-Copy code
-# application.properties
-spring.data.mongodb.uri=mongodb://localhost:27017/your-database
-twilio.account.sid=your_account_sid
-twilio.auth.token=your_auth_token
-twilio.whatsapp.from=whatsapp:+14155238886
-Build and Run the Application:
+   ```bash
+   git clone https://github.com/your-username/DSApractice.git
+   cd DSApractice
+
 
 bash
 Copy code
