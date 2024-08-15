@@ -81,7 +81,9 @@ Ensure that the application is running and your Twilio account is properly set u
 - [Spring Boot Documentation](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
 - [Twilio API Documentation](https://www.twilio.com/docs/whatsapp)
 - [MongoDB Documentation](https://docs.mongodb.com/)
-📧 ContactClaude currently cannot access the internet or reference links
+
+
+## Issues 
 For any issues or suggestions, feel free to reach out:
 
 
