@@ -48,7 +48,7 @@ twilio.auth.token=your_auth_token
 twilio.whatsapp.from=whatsapp:+14155238886
 ```
 
-**📦Usage**
+### 📦Usage
 ### Schedule Messages
 The application is configured to send a random DSA question daily at 9 AM. You can adjust the schedule in the MessageScheduler class.
 ### Check Logs
